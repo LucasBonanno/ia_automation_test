@@ -61,5 +61,62 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>1</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/home/lucas/repositorio/ia_automation_test/.evosuite/tmp_2021_02_10_10_02_16/logs/fb.FizzBuzz/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/home/lucas/repositorio/ia_automation_test/.evosuite/tmp_2021_02_10_10_02_16/logs/fb.FizzBuzz/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/home/lucas/repositorio/ia_automation_test/.evosuite/tmp_2021_02_10_10_02_16/logs/fb.FizzBuzz/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/home/lucas/repositorio/ia_automation_test/.evosuite/tmp_2021_02_10_10_02_16/logs/fb.FizzBuzz/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/home/lucas/repositorio/ia_automation_test/.evosuite/tmp_2021_02_10_10_02_16/tests/fb/FizzBuzz_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>7</numberOfTests>
+                <totalNumberOfStatements>14</totalNumberOfStatements>
+                <totalEffortInSeconds>33</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.9</coverageValue>
+                    <coverageBitString>1111110111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.91</coverageValue>
+                    <coverageBitString>11111111011</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.96</coverageValue>
+                    <coverageBitString>11111111111111111111111111111111111111111111111111101001111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.33</coverageValue>
+                    <coverageBitString>010</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.91</coverageValue>
+                    <coverageBitString>11111110111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
 </Project>
